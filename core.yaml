@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  redis:
+    container_name: redis-todo
+    image: redis:7.0.5
+    ports:
+      - '6379:6379'
